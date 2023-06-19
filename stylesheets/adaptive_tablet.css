@@ -1,0 +1,17 @@
+@media all and (max-width: 1025px) and (min-width: 700px) and (orientation: portrait) {
+  .main_container {
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr 1fr 1fr;
+  }
+  .index_wind_3 {
+    background-position: center;
+  }
+  p {
+    font-size: 2vw;
+    line-height: 2.7vw;
+  }
+  h2 {
+    font-size: 2.3vw;
+    line-height: 2.7vw;
+  }
+  /* Меню верхнее нужно по шрифтам подогнать */
+}
