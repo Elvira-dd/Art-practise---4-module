@@ -91,6 +91,8 @@
   width: 50vw;
   height: 50vh;
   overflow: hidden;
+  margin-left: 45vw;
+  margin-top: 15vw;
 }
 .index_pop_up_3_content {
   display: flex;
@@ -109,6 +111,8 @@
   background-repeat: no-repeat;
   width: 34vw;
   height: 60vh;
+  margin-left: 25vw;
+  margin-top: 25vw;
 }
 .index_pop_up_5 {
   background-image: url(/images/index_pop_up_5_content_img.png);
@@ -118,15 +122,23 @@
   background-color: #003501;
   width: 50vw;
   height: 50vh;
+  margin-left: 25vw;
+  margin-top: 25vw;
 }
 .index_pop_up_6 {
   width: 30vw;
   height: fit-content;
+  margin-left: 25vw;
+  margin-top: 25vw;
 }
 .index_pop_up_6_content_div {
   border: 0.5vw dashed #00e600;
   box-sizing: border-box;
   padding: 1vw;
+}
+.index_pop_up_7 {
+  margin-left: 25vw;
+  margin-top: 25vw;
 }
 .index_pop_up_7_content {
   background-color: #003501;

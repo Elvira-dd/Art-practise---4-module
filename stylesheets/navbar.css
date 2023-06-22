@@ -30,3 +30,6 @@
 .active_nav_icon {
   background-color: #00e500;
 }
+.active_nav_icon h1 {
+  color: #003501;
+}

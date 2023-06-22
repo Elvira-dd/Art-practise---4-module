@@ -33,21 +33,22 @@ body {
   gap: 0px;
   width: 100%;
   height: 100%;
-
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   grid-template-columns: repeat(8, 1fr);
 }
 .wind {
   outline: 0.25vw solid #00e600;
   outline-offset: -0.25vw;
   box-shadow: inset 0 0 12px #00e600;
+  box-sizing: border-box;
+  padding: 1vw;
 }
 .pop_up {
   position: absolute;
   outline: 0.5vw solid #00e600;
   outline-offset: -0.5vw;
   box-shadow: inset 0 0 12px #00e600;
-  background-color: #001300;
+  background-color: #003501;
 }
 .pop_up_content {
   box-sizing: border-box;

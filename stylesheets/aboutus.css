@@ -1,0 +1,68 @@
+.aboutus_wind_1 {
+  grid-area: A1;
+  border-left: 0.5vw solid #00e600;
+  border-top: 0.5vw solid #00e600;
+}
+.aboutus_wind_1 p {
+  overflow: auto;
+  padding-right: 1vw;
+  height: 100%;
+}
+.aboutus_wind_2 {
+  grid-area: A2;
+  border-top: 0.5vw solid #00e600;
+}
+.aboutus_wind_3 {
+  grid-area: A3;
+  border-left: 0.5vw solid #00e600;
+}
+.aboutus_wind_3 {
+  height: 100%;
+  display: flex;
+}
+.aboutus_wind_3_content_1 {
+  width: 50%;
+}
+.aboutus_wind_3_content_1_1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  height: 80%;
+  padding-right: 1vw;
+}
+.aboutus_wind_2_content_2 {
+  background-image: url(/images/aboutus_graphic.png);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.aboutus_wind_4 {
+  grid-area: A4;
+}
+.aboutus_wind_5 {
+  grid-area: A5;
+  border-left: 0.5vw solid #00e600;
+  border-bottom: 0.5vw solid #00e600;
+}
+.aboutus_wind_6 {
+  grid-area: A6;
+  border-bottom: 0.5vw solid #00e600;
+}
+.aboutus_wind_7 {
+  grid-area: A7;
+  border-top: 0.5vw solid #00e600;
+  border-right: 0.5vw solid #00e600;
+  border-bottom: 0.5vw solid #00e600;
+}
+.aboutus_container {
+  grid-template-areas:
+    "NB NB NB NB NB NB NB NB"
+    "A1 A1 A1 A1 A2 A2 A7 A7"
+    "A1 A1 A1 A1 A2 A2 A7 A7"
+    "A3 A3 A3 A3 A4 A4 A7 A7"
+    "A3 A3 A3 A3 A4 A4 A7 A7"
+    "A3 A3 A3 A3 A4 A4 A7 A7"
+    "A5 A5 A5 A6 A6 A6 A7 A7"
+    "A5 A5 A5 A6 A6 A6 A7 A7";
+}
