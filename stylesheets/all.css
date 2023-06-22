@@ -79,6 +79,63 @@ p::-webkit-scrollbar-thumb {
   background-color: #00e600;
   border: 0.25vw solid #00e600;
 }
+div::-webkit-scrollbar-track {
+  background-color: #003501;
+  border: 0.25vw solid #00e600;
+}
+div::-webkit-scrollbar {
+  width: 1vw;
+  background-color: #003501;
+  border: 0.25vw solid #00e600;
+}
+div::-webkit-scrollbar-thumb {
+  background-color: #00e600;
+  border: 0.25vw solid #00e600;
+}
 a {
   text-decoration: none;
+}
+button {
+  border: 0.25vw solid #00e600;
+  color: #00e600;
+  background-color: #003501;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1vw 0vw;
+}
+button:hover {
+  background-color: #00e600;
+  color: #003501;
+}
+input[type="text"] {
+  width: auto;
+  border-bottom: 0.25vw solid #00e600;
+  font-size: 3vw;
+  line-height: 3.2vw;
+  font-family: "Pixeloid Mono";
+  font-weight: 100;
+  color: #00e600;
+  margin: 0;
+  text-shadow: 0 0 12px #00e600;
+  text-transform: uppercase;
+  background-color: #003501;
+  outline: none;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+::placeholder {
+  color: #009f00;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #009f00;
+}
+
+::-ms-input-placeholder {
+  color: #009f00;
+}
+input[type="text"]:focus {
+  outline: none;
 }

@@ -1,0 +1,51 @@
+.services_container {
+  grid-template-areas:
+    "NB NB NB NB NB NB NB NB"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S3 S3 S3 S3 S3 S3 S3 S3 "
+    "S3 S3 S3 S3 S3 S3 S3 S3 "
+    "S3 S3 S3 S3 S3 S3 S3 S3 ";
+}
+.services_wind_1 {
+  grid-area: S1;
+  border-top: 0.5vw solid #00e600;
+  border-left: 0.5vw solid #00e600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.services_wind_1 img {
+  height: 80%;
+  width: auto;
+}
+.services_wind_2 img {
+  height: 80%;
+  width: auto;
+}
+.services_wind_2 {
+  grid-area: S2;
+  border-right: 0.5vw solid #00e600;
+  border-top: 0.5vw solid #00e600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.services_wind_3 {
+  grid-area: S3;
+  border-left: 0.5vw solid #00e600;
+  border-bottom: 0.5vw solid #00e600;
+  border-right: 0.5vw solid #00e600;
+}
+.services_wind_3_content_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.services_wind_3_content_1 input {
+  margin-left: 1vw;
+}
