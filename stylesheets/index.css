@@ -38,6 +38,7 @@
   box-sizing: border-box;
   padding: 1vw;
   opacity: 0.4;
+  overflow: hidden;
 }
 .planet_index {
   width: 100%;
@@ -152,4 +153,7 @@
   background-color: #003501;
   width: 40vw;
   height: 53vh;
+}
+.page_number_mob_activenot {
+  display: none;
 }
