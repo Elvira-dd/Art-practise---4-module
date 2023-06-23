@@ -31,7 +31,7 @@
   padding-right: 1vw;
 }
 .aboutus_wind_2_content_2 {
-  background-image: url(/images/aboutus_graphic.png);
+  background-image: url(../images/aboutus_graphic.png);
   width: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -67,7 +67,7 @@
 .aboutus_wind_5_content_1 {
   width: 50%;
   height: 100%;
-  background-image: url(/images/flower_icon.svg);
+  background-image: url(../images/flower_icon.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -81,7 +81,7 @@
 .aboutus_wind_5_content_2 {
   width: 50%;
   height: 100%;
-  background-image: url(/images/no_go_icon.svg);
+  background-image: url(../images/no_go_icon.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -104,7 +104,7 @@
   height: 100%;
 }
 .aboutus_wind_6_content_1 {
-  background-image: url(/images/vacation_icon.svg);
+  background-image: url(../images/vacation_icon.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -126,7 +126,7 @@
   border-top: 0.5vw solid #00e600;
   border-right: 0.5vw solid #00e600;
   border-bottom: 0.5vw solid #00e600;
-  background-image: url(/images/index_pop_up_4_content_img.png);
+  background-image: url(../images/index_pop_up_4_content_img.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -162,13 +162,13 @@
   border-right: 0.5vw solid #00e600;
   width: 48%;
   height: 100%;
-  background-image: url(/images/about_pop_1.png);
+  background-image: url(../images/about_pop_1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .about_pop_up_1_content_2 {
-  background-image: url(/images/about_pop_2.png);
+  background-image: url(../images/about_pop_2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -176,7 +176,7 @@
   height: 100%;
 }
 .open_link_icon {
-  background-image: url(/images/open_link_icon.png);
+  background-image: url(../images/open_link_icon.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
