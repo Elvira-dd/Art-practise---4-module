@@ -14,4 +14,27 @@
     line-height: 2.7vw;
   }
   /* Меню верхнее нужно по шрифтам подогнать */
+  .navigation_container {
+    grid-template-areas:
+      "NB NB NB NB NB NB NB NB"
+      "N1 N1 N1 N2 N2 N2 N2 N2"
+      "N1 N1 N1 N2 N2 N2 N2 N2"
+      "N1 N1 N1 N3 N3 N3 N3 N3"
+      "N1 N1 N1 N4 N4 N5 N5 N5"
+      "N1 N1 N1 N4 N4 N5 N5 N5"
+      "N1 N1 N1 N4 N4 N5 N5 N5"
+      "N1 N1 N1 N4 N4 N5 N5 N5";
+  }
+  .navig_wind_2_content_1 {
+    height: 60%;
+  }
+  .navig_wind_2_content_2 {
+    justify-content: space-around;
+  }
+  .navig_wind_4 {
+    padding: 3vw 1vw;
+  }
+  .navig_wind_4 > button {
+    margin-top: 80%;
+  }
 }

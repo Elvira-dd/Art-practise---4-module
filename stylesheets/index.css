@@ -70,10 +70,11 @@
   padding-right: 1vw;
 }
 .index_pop_up_1 {
-  margin-top: 10vw;
-  margin-left: 10vw;
+  margin-top: 7vw;
+  margin-left: 5vw;
   width: 50vw;
   height: 50vh;
+  position: absolute;
 }
 .index_pop_up_2_content_div {
   display: flex;
@@ -84,7 +85,7 @@
 }
 .index_pop_up_2 {
   width: 25vw;
-  margin-left: 50vw;
+  margin-left: 8vw;
   margin-top: 30vw;
 }
 .index_pop_up_3 {
@@ -92,7 +93,7 @@
   height: 50vh;
   overflow: hidden;
   margin-left: 45vw;
-  margin-top: 15vw;
+  margin-top: 30vw;
 }
 .index_pop_up_3_content {
   display: flex;
@@ -111,8 +112,8 @@
   background-repeat: no-repeat;
   width: 34vw;
   height: 60vh;
-  margin-left: 25vw;
-  margin-top: 25vw;
+  margin-left: 65vw;
+  margin-top: 10vw;
 }
 .index_pop_up_5 {
   background-image: url(/images/index_pop_up_5_content_img.png);
@@ -122,14 +123,14 @@
   background-color: #003501;
   width: 50vw;
   height: 50vh;
-  margin-left: 25vw;
-  margin-top: 25vw;
+  margin-left: 38vw;
+  margin-top: 16vw;
 }
 .index_pop_up_6 {
   width: 30vw;
   height: fit-content;
-  margin-left: 25vw;
-  margin-top: 25vw;
+  margin-left: 15vw;
+  margin-top: 21vw;
 }
 .index_pop_up_6_content_div {
   border: 0.5vw dashed #00e600;

@@ -94,8 +94,14 @@
             ><div id="services_icon"><h1>[УСЛУГИ]</h1></div>
           </a>
         </div>
+        <div class="navbar_mobile">
+          <a href="/index.html"
+            ><div id="index_icon_mob">
+              <img src="/images/unactive_index_icon.svg" alt="" /></div
+          ></a>
+        </div>
       </div>
-      <div class="wind aboutus_wind_1">
+      <div class="wind aboutus_wind_1" id="aboutus_wind_1_i">
         <p>
           Центра занимается восстановление экосистемы галактики и защитой
           граждан от заражения и катастроф, вызванных ими. <br /><br />
@@ -105,13 +111,13 @@
           Наша миссия — восстановить природный баланса и порядок
         </p>
       </div>
-      <div class="wind aboutus_wind_2">
+      <div class="wind aboutus_wind_2" id="aboutus_wind_2_i">
         <p>
           Текущие планеты активного контроля: Е-261, Л-539, Ж-331, В-475, Ч-648,
           З-739, Р-632, Т-484, У-955, Б-726
         </p>
       </div>
-      <div class="wind aboutus_wind_3">
+      <div class="wind aboutus_wind_3" id="aboutus_wind_3_i">
         <div class="aboutus_wind_3_content_1">
           <p>Расширения за 3386 год</p>
           <br />
@@ -135,7 +141,7 @@
         </div>
         <div class="aboutus_wind_2_content_2"></div>
       </div>
-      <div class="wind aboutus_wind_4">
+      <div class="wind aboutus_wind_4" id="aboutus_wind_4_i">
         <div class="aboutus_wind_4_content_1">
           <marquee behavior="scroll" direction="left"
             ><h1>
@@ -176,7 +182,7 @@
           >
         </div>
       </div>
-      <div class="wind aboutus_wind_5">
+      <div class="wind aboutus_wind_5" id="aboutus_wind_5_i">
         <div class="aboutus_wind_5_content_1">
           <h3>
             Опасное <br />
@@ -184,8 +190,9 @@
           </h3>
         </div>
         <div class="aboutus_wind_5_content_2"><h3>Вход запрещен</h3></div>
+        <div class="open_link_icon" id="button_poster_popup"></div>
       </div>
-      <div class="wind aboutus_wind_6">
+      <div class="wind aboutus_wind_6" id="aboutus_button_pop_up">
         <div class="aboutus_wind_6_content">
           <div class="aboutus_wind_6_content_1"></div>
           <div class="aboutus_wind_6_content_2">
@@ -197,6 +204,7 @@
               В новое производство ядерной энергии для ракетных двигателей
               требуется помощник
             </h3>
+            <div class="open_link_icon" id="button_admin_popup"></div>
           </div>
         </div>
       </div>
@@ -207,6 +215,30 @@
           <h1>»</h1>
         </div>
       </div>
+      <div class="pop_up about_pop_up_1" id="about_pop_up_1_i">
+        <div class="pop_up_name">
+          <h2>предупреждающие плакаты</h2>
+          <img src="/images/close_icon.svg" alt="" />
+        </div>
+        <div class="pop_up_content about_pop_up_1_content">
+          <div class="about_pop_up_1_content_1"></div>
+          <div class="about_pop_up_1_content_2"></div>
+        </div>
+      </div>
+      <div class="goout_page goout_admin">
+        <div class="goout_alert">
+          <h1>
+            Вы уверены, что хотите перейти на страницу ‎«‎тестовая система
+            администраторов‎»?
+          </h1>
+          <div class="goout_buttons">
+            <button><p>Да</p></button>
+            <button><p>Нет</p></button>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <script src="scripts/pop_up.js"></script>
   </body>
 </html>

@@ -62,6 +62,7 @@
   border-left: 0.5vw solid #00e600;
   border-bottom: 0.5vw solid #00e600;
   display: flex;
+  align-items: flex-end;
 }
 .aboutus_wind_5_content_1 {
   width: 50%;
@@ -145,4 +146,41 @@
     "A3 A3 A3 A3 A4 A4 A7 A7"
     "A5 A5 A5 A6 A6 A6 A7 A7"
     "A5 A5 A5 A6 A6 A6 A7 A7";
+}
+.about_pop_up_1_content {
+  width: 50vw;
+  height: 80%;
+  padding: 0vw !important;
+  display: flex;
+}
+.about_pop_up_1 {
+  display: none;
+  width: 50vw;
+  height: 50vh;
+}
+.about_pop_up_1_content_1 {
+  border-right: 0.5vw solid #00e600;
+  width: 48%;
+  height: 100%;
+  background-image: url(/images/about_pop_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.about_pop_up_1_content_2 {
+  background-image: url(/images/about_pop_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 48%;
+  height: 100%;
+}
+.open_link_icon {
+  background-image: url(/images/open_link_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 4vw;
+  height: 4vw;
+  float: right;
 }

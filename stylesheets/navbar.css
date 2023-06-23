@@ -6,6 +6,9 @@
   padding: 0px 10px;
   grid-area: NB;
 }
+.navbar_mobile {
+  display: none;
+}
 #index_icon img {
   width: 3vw;
   height: 3vw;
@@ -32,4 +35,15 @@
 }
 .active_nav_icon h1 {
   color: #003501;
+}
+@media all and (max-width: 500px) and (min-width: 300px) and (orientation: portrait) {
+  .navbar {
+    display: none;
+  }
+  .navbar_mobile {
+    display: flex;
+  }
+  .index_icon_mob {
+    width: auto p;
+  }
 }
